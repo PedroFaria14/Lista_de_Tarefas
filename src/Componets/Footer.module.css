@@ -1,0 +1,23 @@
+.footer{
+
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33, 75, 92);
+    color: white;
+    flex-direction: column;
+}
+
+.footer span {
+    font-weight: bold;
+    color: rgb(88, 202, 247) ;
+    padding: 0.5em;
+}
+
+.footer p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   

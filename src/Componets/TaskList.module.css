@@ -1,0 +1,45 @@
+.task_container{
+    display: flex;
+    justify-content: space-between;
+  
+    max-width: 400px;
+    margin:  0 auto;
+    border-bottom: 2px solid rgb(33, 75, 92);
+    padding: 1rem;
+}
+
+.task_title{
+text-align: left;
+
+}
+.task_title h4 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+.task_actions{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+.task_actions i {
+    margin-bottom: 0.5rem;
+    font-family: 1.2rem;
+    cursor: pointer;
+    background-color: rgb(33, 75, 92);
+    color: azure;
+    padding:  0.4rem;
+    transition: 0.5;
+    border: #61dafb solid 1px;
+    border-radius: 5px;
+}
+
+.task_actions i:hover{
+    color:#61dafb;
+} 
+
+
